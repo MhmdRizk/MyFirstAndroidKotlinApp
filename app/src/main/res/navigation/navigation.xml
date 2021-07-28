@@ -19,4 +19,8 @@
             android:id="@+id/action_addTaskFragment_to_listFragment"
             app:destination="@id/listFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.mytodoapp.about.AboutFragment"
+        android:label="AboutFragment" />
 </navigation>
